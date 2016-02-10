@@ -44,13 +44,13 @@
             height: wrap.clientHeight
           };
 
-          var kX = 100 - (sizeWrap.width/sizeImg.width* 100);
-          var shift_right = (event.offsetX / sizeWrap.width*kX);
-          event.target.style.right = shift_right+'%';
+          var kX = 100 - (sizeWrap.width / sizeImg.width * 100);
+          var shift_right = (event.offsetX / sizeWrap.width * kX);
+          event.target.style.right = shift_right + '%';
 
-          var kY = 100 - (sizeWrap.height/sizeImg.height* 100);
-          var shift_bottom = (event.offsetY / sizeWrap.height*kY);
-          event.target.style.bottom = shift_bottom+'%';
+          var kY = 100 - (sizeWrap.height / sizeImg.height * 100);
+          var shift_bottom = (event.offsetY / sizeWrap.height * kY);
+          event.target.style.bottom = shift_bottom + '%';
 
           /*var k_width = (sizeImg.width-sizeWrap.width)/sizeWrap.width;
           var k_height = (sizeImg.height-sizeWrap.height)/sizeWrap.height;
